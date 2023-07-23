@@ -18,9 +18,6 @@
 
  const api = new Api();
 
- /**
-  * Я – пример, удали меня
-  */
  const wait = time => new Promise(resolve => {
      setTimeout(resolve, time);
  })
